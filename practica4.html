@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAYOUTS</title>
+    <STYle>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        header{
+            background-color: rgb(178, 218, 245);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: aliceblue;
+        }
+        nav{
+            float: left;
+            width: 30%;
+            height: 300px;
+            background-color: rgb(182, 236, 182);
+            padding: 20px;
+        }
+        nav ul{
+            list-style: none;
+            padding: 0;
+        }
+        article{
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: rgb(226, 241, 226);
+            height: 300px;
+        }
+        section::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        footer{
+            background-color: rgb(199, 245, 245);
+            padding: 10px;
+            text-align: center;
+            color: rgb(114, 211, 250);
+        }
+        @media(max-width: 600px){
+            nav, article{
+                width: 100%;
+                height: auto;
+            }
+        }
+    </STYle>
+</head>
+<body style="background-color: rgb(243, 167, 205) ;">
+    <HEader>
+       <H2>GATITOS</H2> 
+    </HEader>
+    <SECtion>
+        <NAV>
+            <LI><A href=""> NEGROS</A></LI>
+            <LI><A href="">NARANJAS</A></LI>
+            <LI><A href="">GRISES</A></LI>
+            <LI><A href="">COMBINADOS</A></LI>
+        </NAV>
+   
+    <ARTIcle>
+        <H1>GATITOS NEGROS</H1>
+        <P>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, veritatis. Consequuntur nam sint expedita rem saepe perferendis nemo, non voluptas veritatis atque mollitia eius, commodi autem, praesentium quam incidunt ex.
+        </P>
+    </ARTIcle>
+ </SECtion>
+ <FOOter>
+    <P>GATITOS &COPY; 2023</P>
+ </FOOter>
+ <DIV style="background-color: white; color: rgb(152, 208, 235);">
+    ALUMNO: ANA ZOE BELTRAN ZAPIEN FECHA:03/02/23 - &copy;2023 - ana.beltran21@cetis107.edu.mx
+  </DIV>
+</body>
+</html>
