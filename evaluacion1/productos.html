@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        .menu{
+            background-color: rgb(229, 129, 233);
+            color: rgb(218, 126, 205);
+        }
+        .menu:hover{
+            background-color: plum;
+        }
+        a{
+            color: rgb(12, 8, 1);
+            text-decoration: none;
+            font-weight: bold;
+        } 
+        .contenido{
+            text-align: center;
+            border: 2px solid bisque;
+            border-radius: 10px;
+            margin-top: 15px;
+            padding: 10px;
+        }    
+       
+    </style>
+
+</head>
+<body style="background-color: black;">
+  <div class="container">
+    <div class="row">
+      <nav class="navbar navbar-expand-lg bg-light" >
+        <div class="container-fluid" style="background-color: rgb(255, 255, 255); color: black;" >
+          <a class="navbar-brand" href="#" ><img src="img/logo.png" class="d-block w-100" alt="..."></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pedidos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Pasteles</a></li>
+                  <li><a class="dropdown-item" href="#">Cupcakes</a></li>
+                  <li><a class="dropdown-item" href="#">Pan</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Servicio al cliente</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button style="background-color: rgb(0, 0, 0);" class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+<div class="row mt-2">
+    <div class="class col-sm-3">
+      <div class="card">
+        <img src="img/azul.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pastel Mora Azul</h5>
+          <p class="card-text">Recién horneado y hecho a mano con amor utilizando ingredientes de la más alta calidad disponibles. </p>
+          <a href="#" class="btn btn-primary">Pedir Ahora</a>
+        </div>
+      </div>
+    </div>
+    <div class="class col-sm-3">
+      <div class="card">
+        <img src="img/zana.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+      <h5 class="card-title">Pastel Zanahoria</h5>
+          <p class="card-text">Nuestro pastel de zanahoria se ha horneado a la perfección, lo que da como resultado una textura suave.</p>
+          <a href="#" class="btn btn-primary">ADD TO CART</a>
+        </div>
+      </div>
+    </div>
+    <div class="class col-sm-3">
+      <div class="card">
+        <img src="img/cafe.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pastel Café</h5>
+          <p class="card-text">Nuestro pastel de café es el regalo perfecto para cualquier amante del café, lo que da resultado una textura suave. </p>
+          <a href="#" class="btn btn-primary">ADD TO CART</a>
+        </div>
+      </div>
+    </div>
+    <div class="class col-sm-3">
+      <div class="card">
+        <img src="img/ras.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Brownie</h5>
+          <p class="card-text">Tus brownies se enviarán en perfectas condiciones gracias a nuestro envoltorio hecho a medida, reutilizable y ecológico. </p>
+          <a href="#" class="btn btn-primary">ADD TO CART</a>
+        </div>
+      </div>
+    </div>
+
+</div>
+<br>
+            <footer >
+              <P style="border: 0.2px solid rgb(255, 255, 255); padding: 10px; text-align: center; text-decoration-color: white;">THE BAKERS SHOP &COPY; 2023</P>
+            </footer>
+<script src="js/jquery-3.6.3.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
