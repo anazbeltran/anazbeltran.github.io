@@ -5,23 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro de alumno</title>
-    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
     <div class="container">
     <h1>Registro de alumno</h1><HR></HR>
-    <form action="">
+    <form action="practica2.php" method="get">
         <div class="form-group">
             <label for="">Nombre:</label>
-            <input type="nombre" type="text" class="form-control">
+            <input name="nombre" type="text" class="form-control" required>
         </div><BR></BR>
         <div class="form-group">
             <label for="">Edad:</label>
-            <input type="edad" type="number" class="form-control">
+            <input name="edad" type="number" class="form-control" required>
         </div><BR></BR>
         <div class="form group">
             <label for="">Escuela:</label>
-            <select name="escuela" id="">
+            <select name="escuela" id="" required>
                 <option value="">Selecciona una escuela</option>
                 <option value="Cetis 107">Cetis 107</option>
                 <option value="CBTIS 224">CBTIS 224</option>
@@ -29,8 +29,12 @@
             </select>
         </div><BR></BR>
         <div class="form-group">
+            <form action="practica2.php" method="get">
+                <label for="">Fecha de ingreso</label>
+                <input name="fecha_ingreso" type="date" class="form-control" required>
+            <br></br>
             <label for="">Dirección:</label>
-            <textarea name="dirección" cols="30" rows="4" class="form-control"></textarea>
+            <textarea name="dirección" cols="30" rows="4" class="form-control" required></textarea>
         </div><br>
         <div>
             <input type="submit" class="btn btn-primary">
