@@ -15,6 +15,8 @@ $pregunta8 = $_POST["pregunta8"];
 $pregunta9 = $_POST["pregunta9"];
 $pregunta10 = $_POST["pregunta10"];
 
+echo "<h3> Nombre del alumno: ".$nombre."<h3>";
+
 echo "<h3>Pregunta 1, respuesta seleccionada: ".$pregunta1."<h3>";
 
 if($pregunta1 == "c"){
